@@ -30,5 +30,27 @@
             android:backgroundTint="@color/white"
             android:padding="15dp"
             android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="5dp"
+            android:background="@drawable/border_text"
+            android:backgroundTint="@color/white"
+            android:padding="15dp"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar Sesión"
+            android:background="@drawable/border_button"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:padding="20dp"/>
     </LinearLayout>
  </androidx.constraintlayout.widget.ConstraintLayout>
